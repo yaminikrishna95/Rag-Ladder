@@ -1,0 +1,11 @@
+name = "rag-from-scratch"
+version = "0.1.0"
+description = "Learning RAG step by step, from chat-with-PDF to agentic RAG"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.x",
+    "chromadb>=1.5.9",
+    "pypdf>=6.19.0",
+    "python-dotenv>=1.x",
+]
